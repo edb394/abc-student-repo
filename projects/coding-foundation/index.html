@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>Coding Foundation</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="script.js"></script>
   </head>
   <body>
-    <h1>welcome to ✨the forest✨</h1>
-    <h2>what wonders await?</h2>
-    <p>how deep will you go?
-      <input type="number" id="quantity">
-      meters
-    </p>
-    <button type="button" name="button" onclick="addTree()">travel</button>
+    <h1>✨welcome to the forest✨</h1>
+    <h2>what wonders await? how deep will you go?</h2>
+      <p>travel
+        <input type="number" id="quantity" min="1">
+        meters
+        <br>
+        <button type="button" id="travelbutton" onclick="addTree()">confirm</button>
+      </p>
+      <p id="replayask">do you wish to travel further?</p>
     <div id="treeHolder"></div>
   </body>
 </html>

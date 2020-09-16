@@ -1,5 +1,29 @@
+body{
+  background-color: #321e65;
+  margin:0;
+}
+h1, h2, p, button{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+p{
+  line-height: 50px;
+}
+button{
+  background-color: rgba(0,0,0,0)
+}
 img{
-  height:300px;
   position:absolute;
-  bottom:20vh;
+  max-width:300px;
+  max-height:60vh;
+}
+div{
+  margin:0;
+}
+input{
+  width:30px;
+}
+#replayask{
+  display:none;
 }
