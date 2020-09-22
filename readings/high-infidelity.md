@@ -1,0 +1,5 @@
+The author is quite apt in her analysis of Brian Massumi's understanding of the virtual body: "virtual and actual are both 'dimensions of reality.'"
+
+I agree with this because even though virtuality seems to be a completely separate universe, all of the individuals who participate in it are anchored in the actual. As a result, virtual dangers can never be fully separated from actual dangers. And so we feel more safe the closer we tie these "'dimensions'" together--in "high fidelity" as Welk calls it.
+
+I think the unquestionable link between virtual and actual is close to how it was represented in The Matrix (1999). Even when fully immersed in the virtual world, every individual still has a biological body in the actual world which can be put in danger, maybe by someone who found their location by using tools in the virtual world. Additionally, attacks can be made on the virtual body which affect the biological body through means of the brain (in the film, physical attacks, in real life, psychological attacks a la "Rape in Cyberspace.") And as such, there is always a certain amount of fidelity between these two "'dimensions.'"
