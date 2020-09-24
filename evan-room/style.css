@@ -1,0 +1,72 @@
+#fullvid{
+  margin:0;
+  padding:0;
+  min-width:100vw;
+  min-height:100vh;
+  position:absolute;
+}
+body{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+.titlebox{
+  height:100px;
+  position: relative;
+  top:30px;
+  text-align: center;
+  font-family:  sans-serif;
+  color:black;
+  -webkit-text-stroke: 1px lightgray;
+}
+.blurcontainer{
+  height:200px;
+  overflow:hidden;
+  position:relative;
+}
+#blurvid{
+  filter:blur(5px);
+  min-width:100vw;
+  min-height:100vh;
+  position:absolute;
+  top:-100px;
+}
+.flexbox{
+  display:flex;
+  width:100vw;
+  position:relative;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap:  wrap;
+}
+#moonbox{
+  height:300px;
+  top:-250px;
+}
+#glassimg{
+  width:90vw;
+}
+#glassbox{
+}
+.moonphase{
+  height:60%;
+  width:auto;
+  cursor: pointer;
+}
+p{
+  text-align: center;
+  font-family:  sans-serif;
+  font-weight: 800;
+  color:black;
+  -webkit-text-stroke: 0.75px lightgray;
+  position:relative;
+}
+#warning{
+  top:5vw;
+  z-index: 2;
+}
+.moonphase img{
+  height:inherit;
+}
