@@ -9,5 +9,5 @@
 // }
 
 document.getElementsByClassName("moonphase")[0].addEventListener("click",()=>{
-  window.open("https://edb394.github.io/abc-student-repo/projects/coding-foundation/")
+  window.open("https://edb394.github.io/abc-student-repo/projects/plastic-web/")
 })
