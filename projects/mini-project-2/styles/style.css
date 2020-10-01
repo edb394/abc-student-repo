@@ -33,9 +33,14 @@
 button{
   cursor: pointer;
 }
-p{
+p, h1, h2{
   text-align: center;
+  font-family: sans-serif;
 }
 #invisible{
   display:none;
+}
+#mySpan{
+  cursor: pointer;
+  text-decoration: underline;
 }
