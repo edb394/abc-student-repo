@@ -9,8 +9,8 @@
 // }
 
 document.getElementsByClassName("moonphase")[0].addEventListener("click",()=>{
-  window.open("./mini-project-1/")
+  window.open("../projects/mini-project-1/")
 })
 document.getElementsByClassName("moonphase")[1].addEventListener("click",()=>{
-  window.open("./mini-project-2/")
+  window.open("../projects/mini-project-2/")
 })
