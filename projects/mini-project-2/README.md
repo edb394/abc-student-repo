@@ -3,3 +3,5 @@ This was a pretty tough project! I had to look up detailed walkthroughs of how t
 Another roadblock I encountered was making clicking blue windows result in an instant game over. The most relevant method I could find online was using `window.opener`, but this seemed to only be able to edit values, not call functions, so I had to edit a `p` element on the DOM with a CSS value of `display:none`.
 
 The last difficulty was monitoring wins from deleting all of the red windows. Finding when `window.closed` would be true seemed really unintuitive to me, so I ended up using a `setTimeout` with the time equal to the time remaining on the timer, thus calling a `window.closed` check for every single red window that was generated. This then caused issues with multiple `true`s and `false`s (if not every window was open or closed) and so I had to create another variable that would override a win if *any* `window.closed` values were `false`.
+
+If I could change anything, I would want to find a different way to track the blue windows and find a way to detect popup blocker status before the game starts - I have realized not having this somewhat ruins the first playthrough.
