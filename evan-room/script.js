@@ -7,10 +7,10 @@
 //     window.open(link)
 //   })
 // }
-
-document.getElementsByClassName("moonphase")[0].addEventListener("click",()=>{
-  window.open("../projects/mini-project-1/")
-})
-document.getElementsByClassName("moonphase")[1].addEventListener("click",()=>{
-  window.open("../projects/mini-project-2/")
-})
+//
+// document.getElementsByClassName("moonphase")[0].addEventListener("click",()=>{
+//   window.open("../projects/mini-project-1/")
+// })
+// document.getElementsByClassName("moonphase")[1].addEventListener("click",()=>{
+//   window.open("../projects/mini-project-2/")
+// })
