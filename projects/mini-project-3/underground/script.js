@@ -27,10 +27,14 @@ l.addEventListener("click",()=>{
     l.style.animation="rotateright 2s linear forwards";
     leverposition=1;
     document.getElementById("wheel").style.animation="spin 4s linear infinite"
+    setTimeout(()=>{
+      document.getElementById("efg").style.animation="pulse 2s linear infinite"
+    },2500)
   }
   else{
     l.style.animation="rotateleft 2s linear forwards"
     document.getElementById("wheel").style.animationPlayState="paused"
     leverposition=0;
+    document.getElementById("efg").style.animation="0"
   }
 })
