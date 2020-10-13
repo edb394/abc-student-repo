@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+}
+.flex{
+  display:flex;
+}
+#outside{
+  flex-flow: column wrap;
+}
+#left{
+  flex-flow:row wrap;
+  width:50vw;
+}
+#right{
+  flex-flow: column wrap;
+  width: 50vw;
+}
+.mediacontainer{
+  display:flex;
+  flex-flow: column wrap;
+  border-radius:30px;
+  box-shadow: 0px 0px 10px gray;
+  margin:20px;
+  padding:10px;
+  width:40%;
+  height:20vw;
+  font-size: 60%;
+  opacity:0%;
+  transition:opacity 2s;
+}
+.mediacontainer h3, p{
+  margin:15px 30px;
+}
+.quote-tweet{
+  border: lightblue 2px solid;
+  border-radius:20px;
+  padding:10px;
+  margin:5px;
+}
+.quote-tweet p{
+  margin:5px;
+}
+#tpfp{
+  height:50px;
+  float:left;
+  margin:10px;
+  border-radius: 50px;
+}
+#footer h1{
+  opacity:0%;
+}
+#right img{
+  width:600px;
+}
