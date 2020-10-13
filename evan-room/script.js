@@ -17,3 +17,6 @@ document.getElementsByClassName("moonphase")[1].addEventListener("click",()=>{
 document.getElementsByClassName("moonphase")[2].addEventListener("click",()=>{
   window.open("../projects/mini-project-3/")
 })
+document.getElementsByClassName("moonphase")[3].addEventListener("click",()=>{
+  window.open("../projects/project-a/")
+})
