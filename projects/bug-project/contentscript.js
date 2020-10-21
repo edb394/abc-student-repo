@@ -1,14 +1,14 @@
 let ticking = false;
 
 function doSomething(scroll_pos) {
-  var c=document.body.children;
+  var ele=document.getElementsByTagName("*");
   console.log(scroll_pos);
-  for (var i = 0; i < c.length; i++) {
+  for (var i = 0; i < ele.length; i++) {
     if(i%2==0){
-    c[i].style="transform: rotate(" + scroll_pos**1.2 + "deg);";
+    ele[i].style="transform: rotate(" + scroll_pos**2/50 + "deg);";
   }
   else{
-    c[i].style="transform: rotate(-" + scroll_pos**1.2 + "deg);";
+    ele[i].style="transform: rotate(-" + scroll_pos**2/50 + "deg);";
   }
   }
 }
@@ -21,7 +21,7 @@ window.addEventListener('scroll', function(e) {
       sh = 'scrollHeight';
 
   let percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
-
+console.log(percent);
   if (!ticking) {
     window.requestAnimationFrame(function() {
       doSomething(percent);
