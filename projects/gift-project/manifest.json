@@ -1,0 +1,22 @@
+{
+  "name": "gift",
+  "version": "1.0",
+  "description": "",
+  "manifest_version": 2,
+  "permissions":[
+    "activeTab"
+  ],
+  "content_scripts":[
+    {
+      "matches": ["<all_urls>"],
+      "js": ["findAndReplaceDOMText.js", "contentscript.js"],
+      "css": ["wordoftheday.css"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "chrome_url_overrides" : {
+    "newtab": "home/index.html"
+  }
+}

@@ -1,0 +1,14 @@
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+  width:33vw;
+  align-items: center;
+  justify-content: center;
+}
+#f1{
+  width:100vw;
+  height:60vh;
+}
+body{
+  background: rgba(228, 190, 108, 0.7);
+}

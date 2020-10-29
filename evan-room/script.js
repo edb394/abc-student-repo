@@ -23,3 +23,6 @@ document.getElementsByClassName("moonphase")[3].addEventListener("click",()=>{
 document.getElementsByClassName("moonphase")[4].addEventListener("click",()=>{
   window.open("../projects/bug-project/")
 })
+document.getElementsByClassName("moonphase")[5].addEventListener("click",()=>{
+  window.open("../projects/gift-project/")
+})
