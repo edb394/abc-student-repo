@@ -26,3 +26,6 @@ document.getElementsByClassName("moonphase")[4].addEventListener("click",()=>{
 document.getElementsByClassName("moonphase")[5].addEventListener("click",()=>{
   window.open("../projects/gift-project/")
 })
+document.getElementsByClassName("moonphase")[7].addEventListener("click",()=>{
+  window.open("https://acoustic-brassy-paint.glitch.me")
+})
