@@ -29,3 +29,6 @@ document.getElementsByClassName("moonphase")[5].addEventListener("click",()=>{
 document.getElementsByClassName("moonphase")[7].addEventListener("click",()=>{
   window.open("https://acoustic-brassy-paint.glitch.me")
 })
+document.getElementsByClassName("moonphase")[8].addEventListener("click",()=>{
+  window.open("https://purple-working-enigmosaurus.glitch.me")
+})
