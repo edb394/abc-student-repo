@@ -26,6 +26,7 @@ body{
   height:200px;
   overflow:hidden;
   position:relative;
+  opacity:0;
 }
 #blurvid{
   filter:blur(5px);
@@ -55,6 +56,14 @@ body{
   height:60%;
   width:auto;
   cursor: pointer;
+  position:absolute;
+  background-image: linear-gradient(160deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0.85) 60%,rgba(255,255,255,0) 100%);
+background-repeat: repeat-y;
+background-position:-5000px 0;
+}
+@keyframes shimmerBackground {
+    0% {background-position:-5000px 0}
+    100% {background-position:5000px 0}
 }
 p{
   text-align: center;
@@ -64,10 +73,24 @@ p{
   -webkit-text-stroke: 0.75px lightgray;
   position:relative;
 }
+.moonphase p{
+  opacity:0%;
+  transition: opacity 2s;
+  transition-delay: 1s;
+}
 #warning{
   top:5vw;
   z-index: 2;
 }
 .moonphase img{
   height:inherit;
+  opacity:0%;
+  transition: opacity 2s;
+  transition-delay: 1s;
+}
+.moonphase video{
+  height:inherit;
+  z-index: 2;
+  position:relative;
+  transition:opacity 1s
 }
